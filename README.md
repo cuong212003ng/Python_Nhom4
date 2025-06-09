@@ -18,6 +18,6 @@ python main.py
 ```
 
 ## Cấu trúc thư mục
-- `main.py`: Chương trình chính, giao diện menu.
-- `customer.py`: Định nghĩa lớp Customer.
-- `customer_manager.py`: Quản lý danh sách khách hàng. 
+- `main.py`: Chương trình chính, chứa giao diện menu tương tác với người dùng. File này xử lý việc nhập liệu từ người dùng và điều hướng đến các chức năng tương ứng trong CustomerManager.
+- `customer.py`: Định nghĩa lớp Customer với các thuộc tính cơ bản của khách hàng như ID, tên, địa chỉ, số điện thoại và email. Lớp này cũng cung cấp phương thức __str__ để hiển thị thông tin khách hàng.
+- `customer_manager.py`: Lớp quản lý danh sách khách hàng, cung cấp các phương thức để thêm, xóa, cập nhật, tìm kiếm và lấy danh sách khách hàng. Dữ liệu được lưu trữ trong bộ nhớ dưới dạng list. 
